@@ -1,0 +1,14 @@
+.eventDesc {
+    padding: 40px;
+    text-indent: 10%;
+    font-size: 150%;
+    font-family: open sans;
+    text-align: justify;
+    margin: 2px 200px;
+}
+.box{
+    margin: 0px 250px;
+}
+.box h1{
+    margin: 0px 250px;
+}

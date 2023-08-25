@@ -1,0 +1,34 @@
+.fr {
+    border-color: #003f2f6e;
+}
+
+
+
+.tdValue{
+    font-size: 100%;
+    width:500px;
+}
+
+.tdValue-delete{
+    text-align: center;
+
+}
+
+.delete{
+    text-decoration: none;
+    background-color: white;
+    font-family: open sans;
+    border:none;
+}
+.delete:hover{
+
+    background-color: rgb(253, 218, 218);
+
+}
+
+.new-box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+.side-navbar ul {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 15%;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+
+    
+    
+    }
+    
+    .side-navbar li a {
+    
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 150%;
+    border: 1px #000 solid;
+    border-radius: 10px;
+    
+    }
+    
+    .side-navbar li a.active {
+    background-color: #04AA6D;
+    color: white;
+    }
+    
+    .side-navbar li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    }
+    
+    .basic-inner-box{
+        margin-left: 15%;
+    }
+    
+    
+    

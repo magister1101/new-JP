@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 252, 249);
+    background-image: linear-gradient(144deg, rgba(233,236,255,1) 0%, rgba(244,255,245,1) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    
+}
+
+
+
+.basic-inner-box{
+    padding: 1%; 
+    margin: 1%;
+    border: solid 0px black;
+    border-radius: 5px; 
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 15px;
+}
+
+.grey-text{
+  color: #505050;
+}
+
+
+/*buttons*/
+.btn-outline-primary {
+    border-color: #044434;
+    color: #044434;
+}
+.btn-outline-primary:hover{
+    border-color: #044434;
+    background-color: #044434;
+}
+
+.btn-primary {
+  background-color: #47e099;
+  border-color: #47e099;
+  color: #000000;
+}
+.btn-primary:hover{
+  border-color: #044434;
+  background-color: #044434;
+}
+
+
+.btn-info{
+  border-color: #a9d1fc;
+  background-color: #cce5ff;
+  color: #004085;
+  transition: all 0.4s;
+}
+
+.btn-info:hover{
+  border-color: #5677e4;
+  background-color: #5677e4;
+  color: white;
+}
+
+
+
+
+
+
+/*footer*/
+.footer-basic {
+  padding:5px 0;
+  background-color:#4f997d;
+  color:#ffffff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px -3px 8px;
+  
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:12px;
+  line-height:1;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 5px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#202020;
+  margin-bottom:0;
+}
+
+
+
+
+
+
+/*fonts*/
+h1, h2, h3, h4 {
+  font-family: open sans bold;
+}
+p {
+  font-family: open sans;
+}
+
+
+/*Animation*/
+
+.basic-inner-box, .job-job{
+
+  animation: transitionIn 0.75s;
+
+}
+
+@keyframes transitionIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transform: rotateX(0);
+  }
+  
+}

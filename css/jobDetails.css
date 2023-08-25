@@ -1,0 +1,35 @@
+.box-inner{
+    margin: 2% 10% 0% 10%;
+    
+}
+.box {
+    padding: 2% 10% 0% 10%;
+}
+
+.column {
+  /*float: left;*/
+  width: 50%;
+  padding: 10px;
+
+}
+.title{
+    color:rgb(40, 107, 46);
+}
+
+.company:hover{
+    color: rgb(92, 125, 197);
+}
+
+.right h4{
+    text-align: right;
+    font-family: Open Sans Light;   
+}
+
+.description{
+    text-align: justify;
+}
+
+.tdTitle{
+    width: 20%;
+    background-color: green;
+}

@@ -1,0 +1,61 @@
+.title{
+    text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+  
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+    font-family: open sans bold;
+    font-size: 450%;
+}
+
+.column h1{
+    text-align: center;
+}
+
+.column p {
+    padding: 40px;
+    text-indent: 5%;
+    font-size: 150%;
+    font-family: open sans;
+}
+
+.enter-btn {
+    font-size: 200%;
+    margin-bottom: 2%;
+}
+
+
+
+.enter {
+    text-align: center;
+}
+
+
+/* .underPic{
+
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.3)),url(../img/cover.jpg);
+    height: 25vh;;
+    background-position: center;
+    background-size: cover;
+
+}
+*/
